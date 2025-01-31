@@ -1,0 +1,177 @@
+body {
+  background-color: #333;
+  font-family: 'Droid Serif', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2.section-title {
+  margin-bottom: 1em;
+}
+
+.band {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 100%;
+}
+
+.band-nav {
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.band-blue {
+  background-color: #00006f;
+  color: #fff;
+}
+
+.band-dark-gray {
+  background-color: #333;
+  color: #fff;
+}
+
+.band-light-gray {
+  background-color: #bbbbb3;
+}
+
+.band-white {
+  background-color: #f2f1ec;
+}
+
+.band-light-blue {
+  background-color: #2f455d;
+  color: #fff;
+}
+
+nav.affix {
+  top: 0;
+  color: #fff;
+  z-index: 1000;
+}
+
+nav ul {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+
+nav li:first-child {
+  border-top: 1px solid #fff;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  padding: 0.25em 1em;
+  font-size: 150%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav li a:hover, 
+nav li a:active {
+  color: #fff;
+  background-color: #00006f;
+  text-decoration: none;
+}
+
+.list-big {
+  font-size: 125%;
+  line-height: 175%;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-collapse {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.logo {
+  float: left;
+  width: 30%;
+}
+
+h1.title {
+  float: left;
+  padding-left: 1em;
+  font-size: 20px;
+  width: 40%;
+  margin-top: 0;
+  box-sizing: border-box;
+  min-width: 150px;
+}
+
+@media (min-width: 480px) {
+  .logo {
+    float: left;
+    width: 20%;
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  h1.title {
+    font-size: 24px;
+    width: 65%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  h1.title {
+    text-align: center;
+    font-size: 36px;
+    float: none;
+    width: 100%;
+    margin-top: 0.25em;
+  }
+  
+  nav ul {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  nav li {
+    width: auto;
+    border: none;
+  }
+  
+  .band-nav {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  
+  nav li a:hover, 
+  nav li a:active {
+    color: #337ab7;
+    background-color: #333;
+    text-decoration: underline;
+  }
+  
+  nav li:first-child {
+    border-top: none;
+  }
+}
